@@ -1,0 +1,131 @@
+/*reset*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #f3f2f1;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5{
+    color: #333;
+}
+
+
+p, label{
+    color: #444;
+}
+
+input{
+    border: none;
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+   
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+input[type="file"],
+textarea{
+    width: 400px;
+}
+
+
+.header{
+    height: 100px;
+    padding: 20px;
+    background: rgb(180,58,93);
+    background: linear-gradient(90deg, rgba(180,58,93,1) 0%, rgba(253,85,29,1) 42%, rgba(252,176,69,1) 100%);
+}
+
+.header h3{
+    color: hsl(0, 0%, 100%);
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    border: solid #fff;
+    border-radius: 30px;
+    width: 170px;
+    height: 20px;
+}
+
+
+h3 span{
+    color: #fff;
+}
+
+/*form container*/
+.form-container{
+    width:60%;
+    background-color: #fdfdfd;
+    margin-left:40%;
+    margin: 0 auto;
+    position: relative;
+    top: -62px;
+}
+
+textarea{
+    margin-top: 25px;
+    padding: 10px 5px;
+    border-radius: 10px;
+
+}
+
+.form-header p{
+    justify-content: center;
+    
+    display: flex;
+    font-size: larger;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.form-body h1,
+.form-body p {
+    display: flex;
+    justify-content: center;
+   padding-bottom: 30px;
+
+}
+
+.box-input label{
+    display: inline-block;
+    padding: 15px;
+    margin-left: auto;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.form-container{
+    border-radius: 50px;
+}
+
+.botoes{
+    justify-content: center;
+    display: flex;
+    padding-top: 40px;
+}
+
+
+[type="submit"] 
+{margin-right: 30px;
+    border-radius: 30px;
+    border: line
+}
+
+
+[type="reset"] 
+{margin-right: 30px;
+    border-radius: 30px;
+   
+}
+

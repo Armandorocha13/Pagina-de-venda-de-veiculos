@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venda seu carro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="header">
+            <h3>VEND<span>AQUI</span></h3>
+        </div>
+        <div class="form-container">
+            <div class="form-header">
+                <p>FORMULARIO</p>
+            </div>
+            <form id="carForm">
+                <div class="form-body">
+                    <h1 class="form-title">Venda de veiculos</h1>
+                    <p>Descreva as características e marque os opcionais que ele possui:</p>
+                    <div class="box-input">
+                        <label for="title">Título do anúncio:</label>
+                        <input type="text" name="title" id="title" class="block" placeholder="Um título para anunciar o seu carro" minlength="1" maxlength="30" required />
+                    </div>
+                    <div class="box-input">
+                        <label for="price">Preço:</label>
+                        <input type="number" name="price" id="price" class="block" placeholder="Defina o preço" minlength="1" maxlength="30" required />
+                    </div>
+                    <div class="box-input">
+                        <label for="description">Descrição:</label>
+                        <textarea name="description" id="description" class="block" placeholder="Escreva os detalhes do veículo" required></textarea>
+                    </div>
+                    <div class="box-input">
+                        <label for="brand">Marca:</label>
+                        <input type="text" name="brand" id="brand" class="block" placeholder="Diga a marca do seu veículo" required />
+                    </div>
+                    <div class="box-input">
+                        <label for="model">Modelo:</label>
+                        <input type="text" name="model" id="model" class="block" placeholder="Diga o modelo do seu veículo" minlength="1" maxlength="30" required />
+                    </div>
+                    <div class="box-input">
+                        <label for="date">Data de compra:</label>
+                        <input type="date" name="date" id="date" class="block" required />
+                    </div>
+                    <div class="box-input">
+                        <label for="file">Envie fotos do veículo:</label>
+                        <input type="file" name="file" id="file" class="block" required />
+                    </div>
+                </div>
+
+               <div class="botoes">
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+               </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
